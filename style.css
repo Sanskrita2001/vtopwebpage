@@ -32,7 +32,6 @@ body
 }
 .card
 {
-    border-top: 2px inset  ;
     display: inline-block;
     margin: 10px 40px;
     width: 400px;
@@ -41,16 +40,16 @@ body
     border-radius: 4px;
     box-shadow: 2px #333;
 }
-.card .student
+.student
 {
-    border-top-color: blue;
+    border-top: 2px solid blue;
 }
-.card .student h4
+.student h4
 {
     margin: 5px;
     padding: 2px;
 }
-.card .student p
+.student p
 {
     margin: 18px 5px 18px 5px;
     color: rgb(41,98,255);
