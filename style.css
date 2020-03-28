@@ -1,0 +1,60 @@
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    background-color: #ccc;
+}
+.header
+{
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.header img
+{
+    width: 200px;
+    height: 60px;
+    margin-left: 100px;
+    float: left;
+}
+.header h3
+{
+    color: white;
+    margin-left: 800px;
+    margin-right: 300px;
+    font-family:Times; 
+    font-size: 24px;
+    padding: 20px 0px;
+}
+.card
+{
+    border-top: 2px inset  ;
+    display: inline-block;
+    margin: 10px 40px;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 2px #333;
+}
+.card .student
+{
+    border-top-color: blue;
+}
+.card .student h4
+{
+    margin: 5px;
+    padding: 2px;
+}
+.card .student p
+{
+    margin: 18px 5px 18px 5px;
+    color: rgb(41,98,255);
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+}
