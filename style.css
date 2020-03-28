@@ -25,7 +25,7 @@ body
 {
     color: white;
     margin-left: 800px;
-    margin-right: 300px;
+    //margin-right: 300px;
     font-family:Times; 
     font-size: 24px;
     padding: 20px 0px;
@@ -39,15 +39,19 @@ body
     background-color: white;
     border-radius: 4px;
     box-shadow: 2px #333;
+    border-bottom:2px solid #777;
 }
 .student
 {
-    border-top: 2px solid blue;
+    border-top: 2px solid rgb(41,98,255);
+    float: left;
 }
 .student h4
 {
     margin: 5px;
     padding: 2px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
 }
 .student p
 {
@@ -57,3 +61,106 @@ body
     word-spacing: 2px;
     letter-spacing: -1px;
 }
+.student button
+{
+    background-color: rgb(41,98,255);
+    color: white;
+    border-radius: 5px;
+    margin: -2px 5px 10px 295px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    letter-spacing: -1px;
+    border: solid;
+}
+.spotlight
+{
+    border-top:2px solid orange;
+    margin-left: 100px;
+    height: 170px;
+    width: 80%;
+}
+.spotlight h4
+{
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+    letter-spacing: -1px;
+}
+.spotlight ul
+{
+    color: blue;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+    font-size: 15px;
+    padding: 20px 50px;
+}
+.parent
+{
+    border-top: 2px solid green;
+    margin-left: -10px;
+    margin-right: 40px;
+    clear: left;
+}
+.parent h4
+{
+    margin: 5px;
+    padding: 2px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+.parent p
+{
+    margin: 18px 5px 18px 5px;
+    color: rgb(41,98,255);
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+}
+.parent button
+{
+    background-color: rgb(41,255,98);
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    margin: -2px 5px 10px 295px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    letter-spacing: -1px;
+}
+.alumni
+{
+    border-top: 2px solid lightskyblue;
+    clear: right;
+    margin-left: -10px;
+}
+.alumni h4
+{
+    margin: 5px;
+    padding: 2px;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+.alumni p
+{
+    margin: 18px 5px 18px 5px;
+    color: rgb(41,98,255);
+    font-size: 15px;
+    word-spacing: 2px;
+    letter-spacing: -1px;
+}
+.alumni button
+{
+    background-color: lightskyblue;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    margin: -2px 5px 10px 295px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    letter-spacing: -1px;
+}
+
+
